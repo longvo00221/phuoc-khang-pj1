@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-item-link {
+    text-decoration: none;
+    color: white;
+    line-height: 46px;
+    font-size: 13px;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 46px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  
+}
+.heading-list {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header-item {
+    padding: 0 24px;
+    cursor:pointer;
+}
+.header-item:hover{
+    background-color: #6e6e6e;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px;
+    
+}
+.search-button:hover{
+    background-color: #6e6e6e;
+}
+#hero{
+    background: url('./assets/indie.jpg') top center / cover no-repeat;
+    /* background : đường dẫn, vị trí / kích thước ,lặp lại */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding-top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+.hero-content{
+    color: white;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.hero-heading{
+    margin-bottom: 20px;
+}
+.hero-text{
+    font-size: 15px;
+    font-style: italic;
+}
+#intro{
+    width: 800px;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+.tieude{
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.tieudephu{
+    font-style: italic;
+    color: gray;
+    /* opacity: 0.5 */
+    margin: 25px;
+}
+.noidung{
+    text-align: justify;
+    line-height: 1.5;
+}
+.caccasi{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hinhanhcasi{
+    width: 153px;
+    height: 153px;
+    border-radius: 5px;
+}
+.tencasi{
+    font-size: 18px;
+}
+.mauxanh{
+    color: green;
+}
